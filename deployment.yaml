@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: rayvaladares/hello-app:8ef30786dd2a9b60c56dfbfba61e1c8a8b7558cc
+          image: rayvaladares/hello-app:e19186d3af0636e86a9baa00c201deb19340e3b3
           ports:
             - containerPort: 8000
           readinessProbe:
