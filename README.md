@@ -42,6 +42,12 @@ hello-manifests
 ├── deployment.yaml        # Deployment do Hello App
 └── service.yaml           # Service para expor a aplicação
 ```
+
+Descrição dos arquivos:
+
+- deployment.yaml – Define o Deployment da aplicação, especificando a imagem Docker e o número de réplicas.
+- service.yaml – Cria o Service responsável por expor a aplicação na porta configurada.
+
 <br>
 <br>
 <br>
@@ -75,3 +81,4 @@ O código-fonte da aplicação FastAPI e o pipeline de CI/CD estão disponíveis
 ## Evidências do Projeto
 
 As capturas de tela e evidências de execução estão disponíveis no seguinte repositório: https://github.com/RayaneValadares/hello-app
+
