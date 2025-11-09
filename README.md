@@ -4,7 +4,7 @@
   Repositório de Manifestos - Projeto CI/CD com o Github Actions 
 </h1>
 
-Este repositório contém os manifestos **Kubernetes** da aplicação **Hello App (FastAPI)**.  
+Este repositório contém os manifestos **Kubernetes** da aplicação **Hello App**.  
 Ele atua como a **Single Source of Truth** do fluxo **GitOps**, utilizado para automação do deploy via **ArgoCD**.
 
 ---
@@ -54,7 +54,7 @@ Descrição dos arquivos:
 
 ## Repositório da Aplicação
 
-O código-fonte da aplicação FastAPI e o pipeline de CI/CD estão disponíveis em:
+As atualizações deste repositório são geradas automaticamente por um workflow do GitHub Actions, definido no repositório principal da aplicação.
 
 👉 https://github.com/RayaneValadares/hello-app
 
@@ -81,4 +81,5 @@ O código-fonte da aplicação FastAPI e o pipeline de CI/CD estão disponíveis
 ## Evidências do Projeto
 
 As capturas de tela e evidências de execução estão disponíveis no seguinte repositório: https://github.com/RayaneValadares/hello-app
+
 
